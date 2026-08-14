@@ -25,3 +25,8 @@ Console.WriteLine($"Nome do cliente: {nomeCliente}");
 Console.WriteLine($"Idade do Cliente: {idadeCliente}");
 Console.WriteLine($"Modelo da bicicleta: {modeloBike}");
 Console.WriteLine($"O cliente está ativo?: {clienteAtivo}");
+
+const double jurosBike = 0.10;
+double valorImpostoBike = valorBike * jurosBike;
+
+Console.WriteLine($"O valor do Imposto da bicicleta é R$ {valorImpostoBike}");
